@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Extension Name",
-  "description": "Some Desc.",
-  "version": "1.1",
+  "name": "Shapr3D STL Exporter",
+  "description": "",
+  "version": "1.2",
   "content_scripts": [{
       "matches": ["*://collaborate.shapr3d.com/*"],
       "run_at": "document_start",
