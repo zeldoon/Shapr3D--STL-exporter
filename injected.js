@@ -34,8 +34,6 @@ window.stl_ready = async function(){
     const script = document.createElement('script');
     script.src = url;
     script.type = "module"
-    script.onload = () => resolve();
-    script.onerror = () => reject(new Error(`Failed to load script: ${url}`));
     document.head.appendChild(script);
     
 }
