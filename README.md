@@ -2,7 +2,7 @@
 
 ## This is a chrome extension that allows the download of high-resolution models out of the web preview. Huge thanks to three.js for being awesome. 
 
---
+
 To install:
 1. Download these files to your local machine
 2. Open chrome://extensions/
