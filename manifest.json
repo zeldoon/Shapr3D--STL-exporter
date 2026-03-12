@@ -2,7 +2,10 @@
   "manifest_version": 3,
   "name": "Shapr3D Export Helper",
   "version": "1.69",
-
+  "host_permissions": [
+    "https://app.shapr3d.com/*",
+    "https://static.candela.io/*"
+    ],
 
   "content_scripts": [
     {
